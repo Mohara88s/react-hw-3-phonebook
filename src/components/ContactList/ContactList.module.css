@@ -4,3 +4,9 @@
   align-items: baseline;
   padding: 10px;
 }
+.item {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  align-content: space-between;
+}

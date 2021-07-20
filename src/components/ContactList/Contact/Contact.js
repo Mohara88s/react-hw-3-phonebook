@@ -5,7 +5,7 @@ import styles from './Contact.module.css';
 
 const Contact = ({ id, name, number, onDelete }) => {
   return (
-    <li className={styles.Contact}>
+    <>
       <p>
         {name} {number}
       </p>
@@ -16,7 +16,7 @@ const Contact = ({ id, name, number, onDelete }) => {
       >
         Delete
       </button>
-    </li>
+    </>
   );
 };
 Contact.propTypes = {
